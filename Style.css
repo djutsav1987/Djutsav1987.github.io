@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#111;
+    color:#fff;
+    line-height:1.6;
+}
+
+header{
+    background:linear-gradient(135deg,#ff6600,#ff0066);
+    text-align:center;
+    padding:60px 20px;
+}
+
+header h1{
+    font-size:48px;
+}
+
+header p{
+    margin:15px 0;
+    font-size:20px;
+}
+
+.btn{
+    display:inline-block;
+    margin:10px;
+    padding:12px 24px;
+    text-decoration:none;
+    color:#fff;
+    background:#000;
+    border-radius:30px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#fff;
+    color:#000;
+}
+
+.whatsapp{
+    background:#25D366;
+}
+
+section{
+    max-width:1100px;
+    margin:auto;
+    padding:50px 20px;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:25px;
+    color:#ff6600;
+}
+
+.card{
+    background:#222;
+    padding:20px;
+    margin:15px 0;
+    border-radius:10px;
+    text-align:center;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    background:#333;
+}
+
+.package{
+    text-align:center;
+    background:#222;
+    padding:30px;
+    border-radius:15px;
+}
+
+.package h1{
+    color:#00ff88;
+    margin:15px 0;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+input,textarea{
+    padding:15px;
+    border:none;
+    border-radius:8px;
+}
+
+button{
+    padding:15px;
+    background:#ff6600;
+    color:#fff;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:18px;
+}
+
+button:hover{
+    background:#ff0066;
+}
+
+footer{
+    background:#000;
+    text-align:center;
+    padding:25px;
+    margin-top:40px;
+}
